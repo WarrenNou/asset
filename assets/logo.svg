@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Modern gradient for background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0C0E16;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B2030;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gold gradient (more subtle and premium) -->
+    <linearGradient id="goldGradient" x1="0%" y1="20%" x2="100%" y2="80%">
+      <stop offset="0%" style="stop-color:#F8DF86;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D1A01F;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Vibrant accent gradient -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F0C9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0094FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Super-clean logo shape with sharp corners for modern look -->
+  <rect x="135" y="75" width="130" height="130" rx="16" ry="16" fill="url(#bgGradient)" />
+  
+  <!-- Ultra-minimal 'E' concept with gold coin integration -->
+  <g>
+    <!-- Minimal horizontal bars - even cleaner -->
+    <rect x="155" y="105" width="60" height="10" rx="5" ry="5" fill="url(#accentGradient)" />
+    <rect x="155" y="135" width="45" height="10" rx="5" ry="5" fill="url(#accentGradient)" />
+    <rect x="155" y="165" width="60" height="10" rx="5" ry="5" fill="url(#accentGradient)" />
+    
+    <!-- Gold coin element - prominent and centered -->
+    <circle cx="225" cy="135" r="20" fill="url(#goldGradient)" />
+    
+    <!-- Subtle inner circle for layered look -->
+    <circle cx="225" cy="135" r="12" fill="#1B2030" opacity="0.3" />
+  </g>
+  
+  <!-- Company Name (Ultra modern typography) -->
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="24" font-weight="900" text-anchor="middle" letter-spacing="2">
+    <tspan fill="url(#accentGradient)">EVO</tspan><tspan fill="url(#goldGradient)">CASH</tspan>
+  </text>
+  
+  <!-- Ultra-minimal tagline -->
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#7A7C85" letter-spacing="1">DIGITAL ASSET PLATFORM</text>
+</svg>
